@@ -7,7 +7,6 @@ const Repos = () => {
   let languages = repos.reduce((total, item) => {
     const { language, stargazers_count } = item;
     if (!language) return total;
-    console.log(language);
     if (total[language] == null) {
       total[language] = { label: language, value: 1, stars: stargazers_count };
     } else {

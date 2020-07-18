@@ -11,7 +11,7 @@ const UserInfo = () => {
     {
       id: 1,
       icon: <GoRepo className="icon" />,
-      label: "repos",
+      label: "Repositories",
       value: public_repos,
       color: "pink",
     },
